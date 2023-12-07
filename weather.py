@@ -27,8 +27,11 @@ if __name__ == '__main__':
     for conditions in Test_cases:
         predicted_outputs.append(Test_class.predict(conditions[0],conditions[1],conditions[2]))
 
-    print(outputs)
-    
+    print("Expected outputs : ",outputs)
+    print("Predicted outputs : ",predicted_outputs)
+
     if outputs == predicted_outputs:
         print("All tests passed")
-    
+    else:
+        print("All test not passed")
+        
