@@ -36,7 +36,7 @@ if __name__ == '__main__':
     else:
         print("All test not passed")
         
-#    dynamic values
+#    dynamic values - user input
     
     temp = int(input("Enter temperature : "))
     hum = int(input("Enter humidity : "))
